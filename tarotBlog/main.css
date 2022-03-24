@@ -1,0 +1,156 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family: 'Handlee', cursive;
+}
+.background {
+    margin: 0 10%;
+    align-self: center;
+    width: 80%;
+    align-content: center;
+}
+.topHeader {
+    float: left;
+    box-sizing: border-box;
+    height: 5%;
+    width: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: rgba(219, 128, 255, 0.548);
+}
+.topNavBar {
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    height: 5%;
+    width: 50%;
+    text-align: right;
+    overflow: hidden;
+    text-transform: uppercase;
+    padding-right: 1%;
+    background-color: rgba(219, 128, 255, 0.548);
+}
+.navTop {
+    display: flex;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    margin-bottom: 1%;
+    background-color: rgba(219, 128, 255, 0.548);
+}
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+.body {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px auto;
+    flex-wrap: wrap;
+}
+.inner {
+    margin: 20px;
+    padding: 15px;
+    text-align: left;
+    align-content: center;
+}
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    height: 550px;
+    width: 350px;
+    background-color: blanchedalmond;
+    margin: 30px;
+    border: 5px solid rgba(219, 128, 255, 0.548);
+}
+.nav {
+    font-size: 30px;
+    height: 2%;
+    width: 10%;
+    display: inline;
+    text-transform: uppercase;
+}
+.list {
+    font-size: 30px;
+    height: 10%;
+    width: 100%;
+    text-transform: uppercase;
+    overflow: hidden;
+}
+.profile {
+    width: 321px;
+    height: 481px;
+    float: left;
+}
+.intro {
+    display: flex;
+    margin-top: 10%;
+    margin-bottom: 20px;
+    padding: 15px;
+    height: 505px;
+    background-color: blanchedalmond;
+    border: 5px solid rgba(219, 128, 255, 0.548);
+    float: left;
+}
+.picture {
+    margin: 5px;
+    padding: 5px;
+}
+.info {
+    width: 100%;
+    height: 30px;
+    background-color: rgba(0, 119, 255, 0.445);
+    box-sizing: content-box;
+
+}
+img {
+    width: 350px;
+    height: 200px;
+}
+body {
+    background-image: url(background.png);
+    background-repeat: repeat;
+}
+div a {
+    margin: 1px;
+    padding: 1px;
+    align-self: flex-end;
+}
+li a {
+    color: black;
+    text-decoration: none;
+    padding: 5px;
+    margin: 10px;
+    font-weight: bolder;
+    
+}
+p {
+    font-size: 30px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
